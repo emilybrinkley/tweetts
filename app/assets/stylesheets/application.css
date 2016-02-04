@@ -13,3 +13,88 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+
+/*COLODS
+orange: #f79027 / rgb(247, 144, 39)
+*/
+
+
+/*BODY & HEADER STYLES*/
+
+body {
+	background-color: #f79027;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 3px;
+	position: relative;
+	margin: 25px auto;
+	padding: 15px 15px 60px;
+}
+nav {
+	padding: 15px;
+	margin-bottom: 30px;
+	text-align: center;
+/*Main logo -- centering and adding spacing around*/
+}
+
+/*FORM STYLE  */
+/*giving definition and color to the main form for tweets*
+*/
+.well {
+	width: 80%;
+	margin: 0 auto 40px;
+	border: 2px solid #f79027;
+}
+
+.btn {
+	border: 1px solid #f79027;
+	color: #f79027;
+	transition: .2s;
+}
+.btn:hover {
+	background-color: #f79027;
+	color: #fff;
+	transition: .2s;
+}
+/*Having to write 3 different rules in order to allow all browesers to work*/
+
+.form-control::-webkit-input-placeholder {
+	color: rgba(247, 144, 39, .6);
+}
+.form-control::-moz-placeholder {
+	color: rgba(247, 144, 39, .6);
+}
+.form-control:-ms-input-placeholder {
+	color: rgba(247, 144, 39, .6);
+}
+
+/*TWEET STYLE
+/*make it orange and make the container a bit more narrow*/
+.panel {
+	width: 80%;
+	margin:0 auto 20px;
+}
+.username {
+	color: #f79027;
+}
+
+/*FOOTER STYLES*/ 
+footer {
+	text-align: center;
+	color: #f79027;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+}
+
+
+
+
+
+
